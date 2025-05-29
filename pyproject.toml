@@ -12,6 +12,9 @@ dependencies = []
 [project.scripts]
 ovarian-can = "ovarian_can:main"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/ovarian_can"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
