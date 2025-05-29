@@ -29,7 +29,7 @@ cloudpickle==3.0.0
 colorcet==3.1.0
 comm==0.2.2
 ConfigArgParse==1.7
-connection-pool==0.0.3
+connection_pool==0.0.3
 contourpy==1.2.1
 cycler==0.12.1
 dask==2024.8.0
@@ -40,7 +40,6 @@ datrie==0.8.2
 debugpy==1.8.5
 decorator==5.1.1
 defusedxml==0.7.1
-df2img==0.2.21
 distributed==2024.8.0
 docrep==0.3.2
 docutils==0.21.2
@@ -125,6 +124,7 @@ numpy==1.26.4
 ome-zarr==0.9.0
 omnipath==1.0.8
 openpyxl==3.1.5
+-e git+ssh://git@github.com/id-f/ovarian_can.git@9c23bc4b330e89cabd386ae4726066f6512a71cb#egg=ovarian_can
 overrides==7.7.0
 packaging==24.2
 pandas==2.2.2
@@ -175,10 +175,11 @@ s3fs==2023.6.0
 scanpy==1.10.2
 scikit-image==0.24.0
 scikit-learn==1.5.1
+scikit-misc==0.5.1
 scipy==1.13.1
 seaborn==0.13.2
 Send2Trash==1.8.3
-session-info==1.0.0
+session_info==1.0.0
 shapely==2.0.6
 six==1.16.0
 slicerator==1.1.0
