@@ -20,3 +20,6 @@ class PreprocessPathResolver(AbstractPreprocessPathResolver):
     
     def get_intermediate_after_NN_path(self) -> Path:
         return self.resolver.get_interim_data_dir() / "intermediate_after_NN.joblib"
+    
+    def get_interm_after_Clusetring_path(self) -> Path:
+        return self.resolver.get_interim_data_dir() / "intermediate_after_clustering.joblib"

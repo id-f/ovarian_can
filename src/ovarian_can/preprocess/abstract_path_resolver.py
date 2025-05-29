@@ -23,3 +23,6 @@ class AbstractPreprocessPathResolver(ABC):
     def get_intermediate_after_NN_path(self) -> Path:
         pass
     
+    @abstractmethod
+    def get_interm_after_Clusetring_path(self) -> Path:
+        pass
