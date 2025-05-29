@@ -1,6 +1,9 @@
 data/**/*
 !data/**/
-data/raw/
+data/raw/**
+!data/**/.gitkeep
+
+
 
 logs/
 
